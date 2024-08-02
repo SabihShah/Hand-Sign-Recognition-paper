@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF Viewer</title>
+    <style>
+        /* Ensure the HTML and Body elements take up the full height */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Ensure the embed element also takes up the full height */
+        embed {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <embed src="Sign Language and Digits recognition using 2D Neural Network.pdf" width="100%" height="100%" type="application/pdf">
+    <!-- Embed the PDF -->
+    <embed src="Sign Language and Digits recognition using 2D Neural Network.pdf" type="application/pdf">
 </body>
 </html>
